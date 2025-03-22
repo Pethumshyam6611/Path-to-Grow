@@ -1,0 +1,276 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-nav  {
+    margin-left: 30%; 
+}
+.hero-section {
+    padding: 3rem 0;
+    border-radius: 20px;
+    margin: 1rem 0;
+    overflow: hidden;
+    position: relative;
+    background-image: url('./BG1.jpg');
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image within the section */
+    /* Add any other necessary styles, like height or padding */
+    ; /* Example height; adjust as needed */
+}
+
+.hero-content {
+    text-align: center;
+    padding: 1rem 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-title {
+    font-size: 4.0rem;
+    font-weight: bold;
+    margin-bottom: rem;
+    color: #000;
+}
+
+.hero-subtitle {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: #000;
+}
+
+.hero-description {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+}
+
+.get-started-btn {
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+    padding: 0.6rem 1.5rem;
+    font-weight: 600;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.get-started-btn:hover {
+    background-color: #333;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.robot-head {
+    position: absolute;
+    bottom: 0;
+    height: 180px;
+    z-index: 1;
+}
+
+.robot-head-left {
+    left: 0;
+}
+
+.robot-head-right {
+    right: 0;
+}
+
+.feature-section {
+    padding: 3rem 0;
+}
+
+.section-title {
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    
+}
+
+.feature-card {
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+    padding: 1.5rem;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.feature-description {
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.feature-link {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.feature-link-icon {
+    background-color: #fff;
+    color: #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+
+.explore-link {
+    color: #1e88e5;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* How This Works Section */
+.how-it-works {
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin-top: 3rem;
+    background-image: url('./BG2.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image within the section */
+    /* Add any other necessary styles, like height or padding */
+    
+}
+
+.how-it-works-title {
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top:3rem;
+    font-size:3rem ;
+    color: #000;
+}
+
+.step-box {
+    margin-bottom: 1.5rem;
+}
+
+.step-number {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.step-text {
+    font-weight: 600;
+}
+
+/* About Us Section */
+.about-section {
+    padding: 2rem 0;
+    margin-top: rem;
+}
+
+.about-title {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+}
+
+.about-text {
+    line-height: 1.7;
+}
+
+.about-image {
+    max-width: 80%;
+    height: auto;
+}
+
+/* Footer */
+footer a {
+    text-decoration: none; /* Remove underlines from links */
+}
+footer .fab {
+    font-size: 1.8rem; /* Adjust the size as needed */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.5rem;
+    }
+    
+    .robot-head {
+        height: 120px;
+    }
+    
+    .feature-card {
+        margin-bottom: 1.5rem;
+    }
+    .navbar-nav  {
+        margin-left: 0 ; /* Adjust horizontal padding as needed */
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .robot-head {
+        height: 100px;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+
+/*fonts*/
+@font-face {
+    font-family: 'Fira Mono';
+    src: url('../assets/fonts/FiraMono-Regular.woff2') format('woff2'),
+         url('../assets/fonts/FiraMono-Regular.woff') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../assets/fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/poppins-regular-webfont.woff') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+}
